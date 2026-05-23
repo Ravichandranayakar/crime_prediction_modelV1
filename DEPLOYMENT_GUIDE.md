@@ -137,13 +137,13 @@ Modify `label_thresholds.json` to change prediction confidence thresholds for ea
 
 ## 📊 Features
 
-✅ **AI-Powered Classification** - TF-IDF + Logistic Regression
-✅ **Multi-label Prediction** - Predict multiple crime types from single narrative
-✅ **Confidence Scores** - Get probability estimates for predictions
-✅ **Dual View Modes** - Citizen view (simple) and Lawyer view (detailed)
-✅ **Professional UI** - Clean, responsive interface
-✅ **Input Validation** - Minimum 8 words required for reliability
-✅ **Legal Disclaimer** - Clear warning about AI limitations
+- **AI-Powered Classification** - TF-IDF + Logistic Regression
+- **Multi-label Prediction** - Predict multiple crime types from single narrative
+- **Confidence Scores** - Get probability estimates for predictions
+- **Dual View Modes** - Citizen view (simple) and Lawyer view (detailed)
+- **Professional UI** - Clean, responsive interface
+- **Input Validation** - Minimum 8 words required for reliability
+- **Legal Disclaimer** - Clear warning about AI limitations
 
 ---
 
@@ -187,4 +187,4 @@ This project is provided as-is for educational and research purposes.
 
 ---
 
-**Happy Predicting! 🎯**
+**Happy Predicting!**
