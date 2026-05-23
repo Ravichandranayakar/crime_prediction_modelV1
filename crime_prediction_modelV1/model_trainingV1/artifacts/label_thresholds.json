@@ -1,0 +1,17 @@
+{
+  "homicide": 0.25,
+  "sexual_offence": 0.25,
+  "kidnapping": 0.3,
+  "domestic_violence": 0.3,
+  "cyber_crime": 0.35,
+  "fraud": 0.4,
+  "cheating": 0.4,
+  "robbery": 0.4,
+  "extortion": 0.4,
+  "assault": 0.45,
+  "theft": 0.55,
+  "criminal_intimidation": 0.55,
+  "house_trespass": 0.6,
+  "weapon_used": 0.6,
+  "grievous_hurt": 0.6
+}
