@@ -249,7 +249,7 @@ def main():
         char_count = len(narrative_text)
         word_count = len(narrative_text.split()) if narrative_text else 0
         
-        st.caption(f"📊 Characters: {char_count} / {max_chars} | Words: {word_count}")
+        st.caption(f" Characters: {char_count} / {max_chars} | Words: {word_count}")
     
     with col2:
         st.markdown("### Instructions")
@@ -276,7 +276,7 @@ def main():
     
     # Prediction Button
     if st.button(
-        "🔍 Predict Crime Types",
+        " Predict Crime Types",
         use_container_width=True,
         type="primary",
         key="predict_btn"
@@ -286,7 +286,7 @@ def main():
         elif word_count < 8:
             st.error("❌ Please provide at least 8 words.")
         else:
-            with st.spinner("🤔 Analyzing text..."):
+            with st.spinner(" Analyzing text..."):
                 result = predict_crime(narrative_text, model_dict, mode=mode)
             
             st.divider()
@@ -296,7 +296,7 @@ def main():
                 st.markdown(f'<div class="error-box">{result["error"]}</div>', unsafe_allow_html=True)
             else:
                 if result["labels"]:
-                    st.success(f"✅ Predicted Crime Types")
+                    st.success(f" Predicted Crime Types")
                     
                     # Display crime labels
                     cols = st.columns(len(result["labels"]) if len(result["labels"]) <= 4 else 4)
@@ -321,7 +321,7 @@ def main():
                             st.warning("🟠 Low Confidence")
                     
                     # Detailed probabilities
-                    with st.expander("📊 View All Crime Probabilities"):
+                    with st.expander("View All Crime Probabilities"):
                         prob_data = sorted(
                             result["all_probabilities"].items(),
                             key=lambda x: x[1],
@@ -344,7 +344,7 @@ def main():
                                 st.write(f"{prob*100:.1f}%")
                 
                 else:
-                    st.info("ℹ️ No specific crime types matched with sufficient confidence. The narrative may describe a general offense.")
+                    st.info(" No specific crime types matched with sufficient confidence. The narrative may describe a general offense.")
     
     st.divider()
     
