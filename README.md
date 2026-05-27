@@ -7,6 +7,7 @@ A machine learning-based system designed to automatically classify crime types f
 ## Try the App Now!
 
 **[Visit the Live Application](https://ravichandranayakar-crime-prediction-modelv1-app-aihlwf.streamlit.app/)**
+
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/4456448c-af74-40e5-8187-432964b7700d" />
 
 
