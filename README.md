@@ -15,7 +15,7 @@ Click the link above to test the crime prediction model in action! No installati
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -47,7 +47,7 @@ The Crime Type Prediction System is an intelligent classification engine that an
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Features
 - **TF-IDF + Logistic Regression** - Robust ML classification
@@ -108,7 +108,7 @@ The Crime Type Prediction System is an intelligent classification engine that an
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 | Component | Technology | Version |
 |-----------|-----------|---------|
@@ -121,7 +121,7 @@ The Crime Type Prediction System is an intelligent classification engine that an
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -160,7 +160,7 @@ streamlit --version
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Run Locally
 
@@ -300,7 +300,7 @@ print(result)
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 ### Local Deployment
 ```bash
@@ -327,7 +327,7 @@ See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions on:
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 ### CrimePredictor Class
 
@@ -392,7 +392,7 @@ This project is provided for educational and research purposes. All rights reser
 
 ---
 
-## 👨‍💼 Support & Contact
+##  Support & Contact
 
 For issues, questions, or contributions:
 - **GitHub Issues**: [Create an issue](https://github.com/Ravichandranayakar/crime_prediction_modelV1/issues)
